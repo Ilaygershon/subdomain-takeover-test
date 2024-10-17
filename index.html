@@ -18,6 +18,11 @@
             color: #333;
         }
     </style>
+    <script>
+        if (window.location.hostname === 'carrefour.netlify-rum.netlify.app') {
+            window.location.href = 'https://subdomain-takeover-test.netlify.app';
+        }
+    </script>
 </head>
 <body>
     <h1>Subdomain Takeover Successful!</h1>
